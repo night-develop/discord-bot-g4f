@@ -1,0 +1,26 @@
+{
+    "logger": {
+        "logger_name": "bot",
+        "log_level": 10,
+        "file_name": "logfile.log",
+        "log_format": "[ %(asctime)s ] %(name)s - %(levelname)s - %(message)s"
+    },
+    "bot": {
+        "model": "gpt-3.5-turbo",
+        "deep_rate": 10,
+        "message_length": 1998
+    },
+    "discord": {
+        "token": "<discord-token>",
+        "prefix": "/"
+    },
+    "alert_messages": {
+        "provider_not_found": "Нет доступных провайдеров для получения ответа.",
+        "message_exception": "Что от пошло не так...",
+        "ping_command": "Проверка связи.",
+        "link_channel": "Привязать текстовый канал.",
+        "unlink_channel": "Отвязать текстовый канал.",
+        "help_command": "Описание команд.",
+        "admin_permissions_only": "Доступно только администратору."
+    }
+}
