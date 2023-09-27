@@ -50,10 +50,13 @@ cp example.config.json config.json
 python3 main.py
 ```
 
-9. Run docker container
+9. Build docker container
 ```
 sudo docker build -t discord-bot-g4f .
-....
+```
+
+10. Run docker container
+```
 sudo docker run -d --name discord-bot-g4f discord-bot-g4f
 ```
 
